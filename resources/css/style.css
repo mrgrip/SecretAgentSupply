@@ -1,10 +1,28 @@
+/***** General rules *****/
+
 html {
 	font-size: 18px;
 }
 
 body {
+	font-family: Helvetica;
+	font-size: 1rem;
+}
+
+.blackback {
 	background-color: black;
-	color: white;
+}
+
+.whiteback {
+	background-color: white;
+}
+
+.black {
+	color: black;
+}
+
+.white {
+	color: white
 }
 
 .flex-container {
@@ -12,10 +30,35 @@ body {
 	align-items: center;
 }
 
+/***** Main Page Content *****/
+
+.main {
+	max-width: 960px;
+	justify-content: center;
+}
+
+/***** Header *****/
+
+
+header img {
+	height: 1.5rem;
+	margin-left: 0.5rem;
+	margin-right: 1rem;
+}
+
+header p {
+	margin: 0.66rem 0 0.66rem 0;
+}
+
+/***** Banner section *****/
+
 #banner {
 	background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg');
 	background-size: cover;
+	height: 25rem;
 }
+
+/***** Mid Page Navbar *****/
 
 nav {
 	background-color: firebrick;
@@ -26,14 +69,14 @@ ul li {
 	list-style: none;
 }
 
-#white {
-	background-color: white;
-}
-
 .item p, .info p {
 	background-color: black;
 }
 
 .info2 p {
 	color: black;
+}
+
+footer {
+
 }
