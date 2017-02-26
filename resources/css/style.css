@@ -1,0 +1,39 @@
+html {
+	font-size: 18px;
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+.flex-container {
+	display: flex;
+	align-items: center;
+}
+
+#banner {
+	background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg');
+	background-size: cover;
+}
+
+nav {
+	background-color: firebrick;
+}
+
+ul li {
+	display: inline;
+	list-style: none;
+}
+
+#white {
+	background-color: white;
+}
+
+.item p, .info p {
+	background-color: black;
+}
+
+.info2 p {
+	color: black;
+}
