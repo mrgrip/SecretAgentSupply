@@ -92,6 +92,9 @@ ul li {
 
 .menu {
 	display: none;
+	/*justify-content: center;*/
+	padding: 0.75rem 0 0.75rem 0;
+	text-align: center;
 }
 
 /***** Items Images *****/
@@ -156,5 +159,19 @@ footer div {
 /***** Media Queries *****/
 
 @media only screen and (max-width: 1024px) {
-	
+	.full {
+		display: none;
+	}
+
+	.menu {
+		display: block;
+	}
+
+	.item {
+		width: 47%;
+	}
+
+	#glassesdiv {
+		display: none;
+	}
 }
