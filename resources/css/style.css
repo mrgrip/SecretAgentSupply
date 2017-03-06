@@ -71,7 +71,7 @@ header p {
 
 .arrival h2 {
 	font-size: 2rem;
-	margin-top: 0.25rem;
+	margin-top: 0.5rem;
 }
 
 /***** Mid Page Navbar *****/
@@ -158,6 +158,7 @@ footer div {
 
 /***** Media Queries *****/
 
+/*Tablet*/
 @media only screen and (max-width: 1024px) {
 	.full {
 		display: none;
@@ -174,4 +175,70 @@ footer div {
 	#glassesdiv {
 		display: none;
 	}
+}
+
+/*Mobile*/
+@media only screen and (max-width: 470px) {
+	/*header*/
+	header .container{
+		justify-content: center;
+		/*text-align: center;*/
+	}
+
+	header p {
+		display: none;
+	}
+
+	header img {
+		margin: 0.66rem 0 0.66rem 0;
+	}
+
+	/*banner*/
+	#banner {
+		height: 15rem;
+	}
+
+	#banner h4 {
+		font-size: 0.77rem;
+		/*padding-top: 1rem;*/
+	}
+
+	#banner h2 {
+		font-size: 1rem;
+	}
+
+	.arrival {
+		padding: 1rem 0 1.5rem 2rem;
+		width: 100%;
+		top: 10rem;
+	}
+
+	/*items/location*/
+	#watchdiv {
+		display: none;
+	}
+
+	.items {
+		justify-content: center;
+	}
+
+	.item, .hours, .location {
+		width: 90%;
+	}
+
+	.info {
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.location {
+		padding-bottom: 0.5rem;
+	}
+
+	/*footer*/
+	footer {
+		text-align: center;
+	}
+
 }
